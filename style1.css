@@ -1,0 +1,50 @@
+.form {
+	/*width: 100%;*/
+  	position: relative;
+  	background: linear-gradient(to top, #3333FF, #E40045);
+  	max-width: 360px;
+  	padding: 45px;
+ 	text-align: center;
+  	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.login_page{
+	width: 50%;
+	padding: 10% 0 0;
+	margin: auto;
+}
+
+.form input{
+	/*font-family: "Roboto";*/
+	width: 50%;
+	font-size: 14px;
+	padding: 10px;
+	color: white;
+	background: no-repeat;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+.form button{
+	/*font-family: "Roboto";*/
+	font-size: 14px;
+	background: linear-gradient(to left, #E40045, #3333FF);
+	color: #FFFFFF;
+	width: 58%;
+} 
+.form a{
+	font-size: 12px;
+	color: yellow;
+}	
+
+.form h1{
+	font-size: 20px; 
+	color: white;
+}
+
+body {
+  background: linear-gradient(to left, #E40045, #3333FF);
+  font-family: "Roboto", sans-serif;
+}
